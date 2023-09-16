@@ -3,28 +3,92 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Interceptor 650</title>
+    <title>Moto Road</title>
 </head>
 <style>
-    .Foto-interceptor{
-        width: 260px;
-
+    *{
+        margin: 0;
+        padding: 0;
     }
-    .nome-moto{
-        font-size: 24px;
-        color: red;
+    body{
+       
+        
     }
-    .h1nome-moto{
-        color: red;
+ 
+    #moto-road h1{
+        background-color: rgba(0, 0, 0, 0.7);
     }
+    #moto-road  { /* esta controlando a cor e decoracão */
+        color:white;
+        text-decoration: none;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+    }
+    #moto-road .h1 { /* h1 esta controlando a logo*/
+        padding: 10px ;       
+        font-size: 20px; /*controla a fonte do logo*/
+        text-transform: uppercase;
+    }
+    #them h2{
+      color: black;
+      padding-left: 22%;
+      padding-right: 22%;
+      font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+      font-size: 18px;
+    }
+    #primeiro-h2-city{
+        
+        font-size: 15px;
+        padding-top: 10%;
+        padding-left: 10px;
+    }
+    .h2-city{
+        color: black;
+        font-size: 15px;
+        padding-top: 5%;
+        padding-left: 10px;
+    }
+    .font-sub-titulos{
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        color: black;
+    }
+    #parag-city{
+        color: black;
+        font-size: 11px;
+        padding-top: 1%;
+        padding-left: 10px;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    .img-tam{
+        height: 300px;
+        width: 480px;
+        padding-left: 10px;
+        padding-top: 1%;
+    }
+  
 </style>
 <body>
-   
-   <h1 class="h1nome-moto">Interceptor 650</h1>    <!-- Para cabeçario ultilizar a tag h1-->
-   <h3>A melhor moto do mercado</h3>
-   <img class="Foto-interceptor" src="https://www.royalenfield.com/content/dam/royal-enfield/brazil/motorcycles/interceptor/colours/studio-shots/new/baker-express/side-view.png" alt="Foto interceptor branca e vermelho" > <!-- para colocar uma imagem usar a tag <img acompanhada da tag src=  com o caminho que a imagem ira fazer-->
-    <p><span class="nome-moto"> Interceptor 650</span> exala uma atitude versátil e despojada com uma posição de pilotagem confortável.<br> Sua suspensão garante um manuseio preciso, ágil e leve.<br>
-        O motor bicilíndrico de 650cc tem menos componentes, menos peso e é visualmente impressionante.</p> <!-- para acrescentar testo, ultilizar a tag <p> que iria introduzir um paragrafo ao site-->
-    
+   <div>
+   <header id="moto-road">
+    <h1 class="h1 duas-rodas">Duas Rodas</h1>    <!-- Para cabeçario ultilizar a tag h1-->
+   <div id="them">
+    <h2 class="font-sub-titulos">Roteiros incríveis para viajar de moto pelo Brasil</h2>
+    </div>
+    <div>
+        <h2 id="primeiro-h2-city" class="font-sub-titulos">1. Serra do Rio Rastro (SC)</h2>
+        <p id="parag-city">O trajeto pela SC-438 forma uma das mais belas paisagens brasileiras, ainda que seja um tanto<br> perigosa pela quantidade de curvas ingrímes. Ligando as cidades Bom Jardim da Serra e Lauro <br>Miller, a estrada a 1.467 metros de altura tem 35 km e visual para o verde da Mata Atlântica.<br> Durante o inverno pode haver camadas de gelo na pista.</p>
+        <img class="img-tam" src="https://destinosnotaveis.com.br/wp-content/uploads/2022/08/Serra_do_Rio_do_Rastro.jpg" alt="foto da serra do rio do Rastro">
+        <h2 class="h2-city">Rota Romântica (RS e SC)</h2>
+
+        <p id="parag-city">Passando pela maior estrada do Brasil, o trecho da BR-116 que liga Porto Alegre a Nova Petrópolis <br> tem paisagens encantadoras e bucólicas. Chamado de Via-Serrana, está incluso na Rota <br> Romântica, que passa por algumas pequenas cidades como Picada Café e Morro Reuter, além de <br> Canela, Gramado, Nova Petrópolis e Novo Hamburgo.
+        </p>
+
+        <img class="img-tam" src="https://catracalivre.com.br/wp-content/uploads/2022/07/rota-romantica.png" alt="foto da serra gaucha">
+        <h2 class="h2-city">3. Rota do Sol (RN)</h2>
+
+        <p id="parag-city">Para quem viaja pelo Nordeste, a dica é pegar a RN-063, que vai da praia de Ponta Negra, ao sul <br> de Natal, até a praia da Pipa, uma das mais bonitas da capital. O trecho inclui a faixa litorânea de <br> Cotovelo, Pirangi (onde fica o maior cajueiro do mundo), Búzios, Tabatinga, Camurupim e Barreta. <br> É preciso ficar atento aos trechos estreitos e aos animais que cruzam a pista.</p>
+        <img class="img-tam" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEja0ITraBsy7kD-9tlxzBiMo-V_vmflYthzu5YZ5R_WnW_oElTERuIL5pkZeoFYVLPNkJdZartc1nRYZyWBzFUmYHCsIwDH8Uo7xX7Z5ewGufblqhb_gL_TtTTD0L3GLFNJ_T_-jWWk8SdcAFg3_jRe1DBHOptuLe6JmiBZWTgjsw_uOSuVAxk-AMEses9h/s960/rota-do-sol-uma-viagem-deslumbrante-pelo-rio-grande-do-norte-rn-1.webp" alt=""> <br>
+    </div>
+
+    </header>
 </body>
 </html>
