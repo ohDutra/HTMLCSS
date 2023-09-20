@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Doc</title>
+    <style>
+        label{
+           cursor: pointer;
+          
+        }
+    </style>
+</head>
+<body>
+<section>
+  <form action="#" method="get" target="_blank" autocomplete="off">
+    <p>Fomulario</p>
+    <p>
+        <Label for="nome"> Nome:</Label>
+        <input type="text" id="nome" name="nome" placeholder="Seu nome" required>
+       
+    </p>
+    <p>
+        Desenvolvedor: <br>
+        <Label for="dev"> Sou um Dev</Label>
+        <input type="radio" id="dev" name="Desenvolvedor"> <br>
+        <Label for="no-dev"> Não sou um dev</Label>
+        <input type="radio" id="no-dev" name="Desenvolvedor" value="no=dev"> <br>
+        <Label for="dev"> Estudando</Label>
+        <input type="radio" id="dev" name="Desenvolvedor"> <br>
+        <Label for="dev"> Trabalhando</Label>
+        <input type="radio" id="dev" name="Desenvolvedor">
+       
+    </p>
+    <p>
+        <Label for="date"> Data:</Label>
+        <input type="date" id="date" name="date"  value="2023-09-20">
+    </p>
+    <p>
+        <Label for="time"> Horas:</Label>
+        <input type="time" id="time" name="time"  value="12:00">
+    </p>
+    <p>
+        <Label for="cor"> Cor Preferida:</Label>
+        <input type="color" id="cor" name="cor" value="#FF0000" >
+    </p>
+    <p>
+        <Label for="email"> E-Mail:</Label>
+        <input type="email" id="email" name="email"  placeholder="EX: email@email.com">
+    </p>
+    <p>
+        <Label for="file"> Sua Foto:</Label>
+        <input type="file" id="file" name="file"  accept=".png">
+    </p>
+    <p>
+        <Label for="number"> Horas:</Label>
+        <input type="number" id="number" name="number" min="1" max="10">
+    </p>
+    <p>
+        <Label for="password">Senha</Label>
+        <input type="password" id="password" name="password" placeholder="Digite sua Senha">
+    </p>
+    <p>
+        <Label for="range"> range:</Label>
+        <input type="range" id="range" name="range" >
+    </p>
+    <p>
+        <Label for="url">Url:</Label>
+        <input type="url" id="url" name="url" placeholder="Digite sua url">
+    </p>
+    <p>
+        <Label for="search">Senha</Label>
+        <input type="search" id="search" name="search" placeholder="search">
+    </p>
+    <p>
+        <Label for="select">Selecione uma opção</Label>
+        <select id="select" name="select">
+            <optgroup label="Teste">
+            <option value="qualquer 1">Valor 1</option>
+            <option value="qualquer 2">Valor 2</option>
+            <option value="qualquer 3">Valor 3</option>
+            <option value="qualquer 4">Valor 4</option>
+            <option value="qualquer 5">Valor 5</option>
+        </optgroup>
+        </select>
+    </p>
+    <p>
+        <Label for="textarea">textarea:</Label>
+        <textarea name="textarea" id="textarea" cols="30" rows="10"></textarea>
+
+    </p>
+
+    <p>
+        <button type="submit">Enviar</button>
+        <button type="reset">Apagar</button>
+    </p>
+    
+
+    </form>
+</section>
+</body>
+</html>
