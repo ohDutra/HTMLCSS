@@ -1,0 +1,21 @@
+/*
+ranque de prioridade
+ID
+    Classes
+            Atributos
+                    Pseudo-classe
+                                Elementos
+                                        Pseudo-elementos
+                                                        */
+
+
+body{
+    background: aqua;
+}
+#par {
+    background: yellow;
+}
+.parag{
+    background: red;
+}
+

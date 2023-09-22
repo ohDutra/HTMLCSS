@@ -1,0 +1,21 @@
+ul li::after {
+    content: '-';
+    color: red;
+    padding-left: 5px;
+
+}
+p::first-letter {
+    font-size: 50px;
+    color: red;
+}
+
+p::first-line {
+    color:aqua
+}
+p::selection {
+    background: yellow;
+    color: black;
+}
+.form::placeholder {
+    color: red;
+}

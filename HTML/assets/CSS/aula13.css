@@ -1,0 +1,6 @@
+ul li:nth-child(odd){
+    color: blue;
+}
+ul li:nth-child(even){  /* serve como seletor de irmãos,*/
+    color: red;
+}
