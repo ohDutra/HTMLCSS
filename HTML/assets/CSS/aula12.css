@@ -1,0 +1,53 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+.heading {
+    transition: all 1s ease-in-out;    /* transição do background*/
+}
+
+
+.heading:hover {
+    background: gray
+}
+
+a {
+    color: red
+}
+
+a:link {
+    color: blue;
+}
+a:visited{
+    color: purple;
+}
+a:hover {
+    background: darkkhaki;
+    color: whitesmoke;
+    text-decoration: none;
+}
+a:active {
+    background: darkmagenta;
+    color: whitesmoke;
+    text-decoration: none;
+}
+input:focus {
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0,5);
+    outline: none;
+    border: 1px solid black;
+}
+input:disabled {
+  background: red;
+  cursor: not-allowed;
+}
+.input-test:checked + p  {
+    width: 50px;
+    height: 50px;
+    color: red;
+}
+.pai .lista li:first-child {
+    background: red;
+}
+input:required {
+    background: blue;
+}
