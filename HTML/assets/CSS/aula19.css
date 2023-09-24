@@ -1,0 +1,39 @@
+/* p {
+    color: red;
+    background-color: aqua;
+    font-size: 50PX;
+    font-style: italic;
+    font-weight: bold;
+    direction: ltr;
+    letter-spacing: 1px;
+    word-spacing: 5px;
+    line-height: 25PX;
+    text-indent: left;
+    te
+
+} */
+
+* {
+    margin: 0;
+}
+
+
+.filha1, .filha2 {
+    width: 300px;
+    height: 300px;
+    margin: 10px;
+    position: static;
+    
+}
+
+
+.filha1 {
+    background-color: red;
+    top: 50px;
+    left: 50px;
+    position: absolute;
+}
+
+.filha2 {
+    background-color: yellow;
+}
