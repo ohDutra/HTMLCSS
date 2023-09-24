@@ -1,0 +1,24 @@
+html {
+    font-size: 62.5%;
+    scroll-behavior: smooth;
+}
+* {
+    margin: 0;
+    padding: 0;
+}
+.pai {
+    background: yellow;
+    height: 100vh;
+    overflow: hidden;
+}
+p {
+    font-size: 1.6rem;
+    
+}
+
+.color-one {
+    background: aqua;
+}
+.color-two {
+    background: pink;
+}
